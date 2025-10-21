@@ -1,0 +1,55 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0B0E11"/>
+  
+  <!-- Gradient Circles Background -->
+  <circle cx="200" cy="150" r="150" fill="#F0B90B" opacity="0.03"/>
+  <circle cx="1000" cy="480" r="180" fill="#FCD535" opacity="0.03"/>
+  
+  <!-- Darkex Logo - Black Square with White X -->
+  <rect x="230" y="245" width="140" height="140" rx="28" fill="#000000"/>
+  <path d="M265 275L310 315L265 355H280L310 327L340 355H355L325 315L355 275H340L310 303L280 275H265Z" 
+        fill="#FFFFFF" 
+        fillRule="evenodd"/>
+  
+  <!-- DARKEX Text -->
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#FFFFFF" letter-spacing="12">
+    DARKEX
+  </text>
+  
+  <!-- AFFILIATE PROGRAM -->
+  <text x="400" y="345" font-family="Arial, sans-serif" font-size="20" fill="#888888" letter-spacing="8">
+    AFFILIATE PROGRAM
+  </text>
+  
+  <!-- Main Message -->
+  <text x="230" y="420" font-family="Arial, sans-serif" font-size="42" fill="#F0B90B" font-weight="bold">
+    %20 Kayıp Bonusu
+  </text>
+  
+  <!-- Description -->
+  <text x="230" y="465" font-family="Arial, sans-serif" font-size="22" fill="#C0C0C0">
+    Bağımsız Referans ve Bilgilendirme Platformu
+  </text>
+  
+  <!-- Disclaimer -->
+  <text x="230" y="505" font-family="Arial, sans-serif" font-size="16" fill="#666666">
+    * Bu site Darkex.com'un resmi sitesi değildir
+  </text>
+  
+  <!-- Bottom Line -->
+  <rect x="230" y="530" width="740" height="2" fill="url(#lineGrad)"/>
+  
+  <!-- Features -->
+  <text x="230" y="570" font-family="Arial, sans-serif" font-size="18" fill="#888888">
+    Güvenli Platform  •  Hızlı İşlemler  •  Düşük Komisyon  •  7/24 Destek
+  </text>
+  
+  <defs>
+    <linearGradient id="lineGrad" x1="230" y1="530" x2="970" y2="530" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F0B90B"/>
+      <stop offset="50%" stop-color="#FCD535"/>
+      <stop offset="100%" stop-color="#F0B90B"/>
+    </linearGradient>
+  </defs>
+</svg>

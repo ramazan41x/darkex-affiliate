@@ -1,0 +1,9 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - Pure Black Square like Darkex -->
+  <rect width="200" height="200" rx="40" fill="#000000"/>
+  
+  <!-- X Logo - Clean White exactly like Real Darkex -->
+  <path d="M50 50L85 100L50 150H70L100 115L130 150H150L115 100L150 50H130L100 85L70 50H50Z" 
+        fill="#FFFFFF" 
+        fillRule="evenodd"/>
+</svg>

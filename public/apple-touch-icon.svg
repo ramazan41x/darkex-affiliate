@@ -1,0 +1,9 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - Pure Black -->
+  <rect width="180" height="180" rx="40" fill="#000000"/>
+  
+  <!-- X Logo - Clean White -->
+  <path d="M45 45L78 90L45 135H60L90 102L120 135H135L102 90L135 45H120L90 78L60 45H45Z" 
+        fill="#FFFFFF" 
+        fillRule="evenodd"/>
+</svg>
