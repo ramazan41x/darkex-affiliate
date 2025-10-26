@@ -33,7 +33,7 @@ export default function Home() {
   // Aktif dili bul
   const currentLang = languages.find(lang => lang.code === locale) || languages[0]
 
-  // Referans linkleri
+  // Referans linkleri - 4 Premium Link
   const referralLinks = [
     {
       id: 1,
@@ -47,9 +47,9 @@ export default function Home() {
     },
     {
       id: 2,
-      name: "LOSEBONUS",
-      code: "LOSEBONUS",
-      url: "https://www.darkex.com/register?inviteCode=LOSEBONUS",
+      name: "REBACK",
+      code: "REBACK",
+      url: "https://www.darkex.com/register?inviteCode=REBACK",
       bonus: t("withdrawableLossBonus"),
       users: 2891,
       badge: "PREMIUM",
@@ -57,9 +57,9 @@ export default function Home() {
     },
     {
       id: 3,
-      name: "CAMPAIGN",
-      code: "CAMPAIGN",
-      url: "https://www.darkex.com/register?inviteCode=CAMPAIGN",
+      name: "LOSEBONUS",
+      code: "LOSEBONUS",
+      url: "https://www.darkex.com/register?inviteCode=LOSEBONUS",
       bonus: t("withdrawableLossBonus"),
       users: 2534,
       badge: "PREMIUM",
@@ -67,63 +67,13 @@ export default function Home() {
     },
     {
       id: 4,
-      name: "REBACK",
-      code: "REBACK",
-      url: "https://www.darkex.com/register?inviteCode=REBACK",
-      bonus: t("withdrawableLossBonus"),
-      users: 2187,
-      badge: "PREMIUM",
-      featured: false
-    },
-    {
-      id: 5,
-      name: "DARKEX50",
-      code: "DARKEX50",
-      url: "https://www.darkex.com/register?inviteCode=DARKEX50",
-      bonus: t("withdrawableLossBonus"),
-      users: 1956,
-      badge: "PREMIUM",
-      featured: false
-    },
-    {
-      id: 6,
       name: "VIPREF",
       code: "VIPREF",
       url: "https://www.darkex.com/register?inviteCode=VIPREF",
       bonus: t("withdrawableLossBonus"),
-      users: 1743,
+      users: 2187,
       badge: "PREMIUM",
-      featured: false
-    },
-    {
-      id: 7,
-      name: "BOOST20",
-      code: "BOOST20",
-      url: "https://www.darkex.com/register?inviteCode=BOOST20",
-      bonus: t("withdrawableLossBonus"),
-      users: 1521,
-      badge: "PREMIUM",
-      featured: false
-    },
-    {
-      id: 8,
-      name: "CAMP20",
-      code: "CAMP20",
-      url: "https://www.darkex.com/register?inviteCode=CAMP20",
-      bonus: t("withdrawableLossBonus"),
-      users: 1298,
-      badge: "PREMIUM",
-      featured: false
-    },
-    {
-      id: 9,
-      name: "123456789",
-      code: "123456789",
-      url: "https://www.darkex.com/register?inviteCode=123456789",
-      bonus: t("withdrawableLossBonus"),
-      users: 987,
-      badge: "PREMIUM",
-      featured: false
+      featured: true
     }
   ]
 
