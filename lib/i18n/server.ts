@@ -3,8 +3,13 @@ import fs from 'fs/promises'
 import path from 'path'
 
 export async function getLocale(): Promise<string> {
-  const cookieStore = await cookies()
-  return cookieStore.get('NEXT_LOCALE')?.value || 'tr'
+  try {
+    const cookieStore = await cookies()
+    return cookieStore.get('NEXT_LOCALE')?.value || 'tr'
+  } catch (error) {
+    console.error('Error reading locale cookie:', error)
+    return 'tr'
+  }
 }
 
 export async function getMessages(locale?: string): Promise<Record<string, string>> {

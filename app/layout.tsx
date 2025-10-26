@@ -4,6 +4,9 @@ import { getMessages, getLocale } from '@/lib/i18n/server'
 import './globals.css'
 import StructuredData from './components/StructuredData'
 
+// Force dynamic rendering
+export const dynamic = 'force-dynamic'
+
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale()
   const messages = await getMessages(locale)
