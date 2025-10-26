@@ -215,6 +215,47 @@ export default function Home() {
                 {t("viewReferralLinks")}
               </a>
             </div>
+            
+            {/* Contact Telegram Card - Below Button */}
+            <div className="mt-8 max-w-3xl mx-auto px-4">
+              <div 
+                className="glass-effect rounded-xl sm:rounded-2xl p-4 sm:p-6 hover:bg-darkex-dark/50 hover:border-blue-500/40 transition-all border-2 border-blue-500/30 shadow-xl shadow-blue-500/20 bg-darkex-dark/30"
+              >
+                <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+                  {/* Left - Icon */}
+                  <div className="flex-shrink-0">
+                    <svg className="w-12 h-12 sm:w-14 sm:h-14 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.226-.461-1.901-.903-1.056-.692-1.653-1.123-2.678-1.799-1.185-.781-.417-1.21.258-1.911.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.062 3.345-.479.329-.913.489-1.302.481-.428-.009-1.252-.241-1.865-.44-.752-.244-1.349-.374-1.297-.789.027-.216.324-.437.892-.663 3.498-1.524 5.831-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635.099-.001.321.023.465.141.121.098.155.232.171.326.016.094.037.306.021.472z"/>
+                    </svg>
+                  </div>
+                  
+                  {/* Middle - Text */}
+                  <div className="flex-1 text-center sm:text-left">
+                    <h3 className="text-lg sm:text-xl font-bold text-white mb-1">
+                      {t("contactUs") || "Bizimle İletişime Geçin"}
+                    </h3>
+                    <p className="text-sm sm:text-base text-gray-300">
+                      {t("contactDescription") || "Sorularınız veya önerileriniz için Telegram üzerinden bize ulaşın"}
+                    </p>
+                  </div>
+                  
+                  {/* Right - Button */}
+                  <div className="flex-shrink-0">
+                    <a
+                      href="YOUR_TELEGRAM_LINK_HERE"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg font-bold text-white hover:scale-105 transition-transform shadow-lg shadow-blue-500/30 text-sm sm:text-base whitespace-nowrap"
+                    >
+                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.226-.461-1.901-.903-1.056-.692-1.653-1.123-2.678-1.799-1.185-.781-.417-1.21.258-1.911.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.062 3.345-.479.329-.913.489-1.302.481-.428-.009-1.252-.241-1.865-.44-.752-.244-1.349-.374-1.297-.789.027-.216.324-.437.892-.663 3.498-1.524 5.831-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635.099-.001.321.023.465.141.121.098.155.232.171.326.016.094.037.306.021.472z"/>
+                      </svg>
+                      <span>{t("joinTelegram") || "Telegram Grubuna Katıl"}</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
           </div>
         </div>
