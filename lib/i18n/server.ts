@@ -1,13 +1,15 @@
-import { cookies } from 'next/headers'
+import { headers } from 'next/headers'
 import fs from 'fs/promises'
 import path from 'path'
 
 export async function getLocale(): Promise<string> {
   try {
-    const cookieStore = await cookies()
-    return cookieStore.get('NEXT_LOCALE')?.value || 'tr'
+    const headersList = await headers()
+    const cookieHeader = headersList.get('cookie') || ''
+    const match = cookieHeader.match(/NEXT_LOCALE=([^;]+)/)
+    return match ? match[1] : 'tr'
   } catch (error) {
-    console.error('Error reading locale cookie:', error)
+    console.error('Error reading locale:', error)
     return 'tr'
   }
 }
